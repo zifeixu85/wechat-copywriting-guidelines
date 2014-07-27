@@ -20,3 +20,7 @@
 先选择你想要使用的文本样式，然后将之整个段落复制到微信编辑器中，在编辑器中修改文字内容即可。
 
 ### 三
+
+
+<p style="margin:auto;font-family:STHeiti;padding:5px 20px; background:#00bbec; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">点击【阅读原文】更精彩！</p>
+<p class="qipao"><span class="bot">　</span></p>
