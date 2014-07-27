@@ -3,9 +3,9 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap 入门教程 · Bootstrap</title>
+    <title>微信文案排版指南</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="学会在自己的项目中使用 Bootstrap。">
+    <meta name="description" content="为方便微信文章排版">
     <meta name="author" content="">
 
     <!-- Le styles -->
@@ -39,6 +39,7 @@
 
   </head>
 
+
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
 
     <!-- Navbar
@@ -51,11 +52,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.html">分享页面</a>
+          <a class="brand" href="#">回到顶部</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="https://github.com/zifeixu85/wechat-copywriting-guidelines" target=_blank >GitHub项目地址</a>
+                <a href="https://github.com/zifeixu85/wechat-copywriting-guidelines/tree/gh-pages" target=_blank >GitHub项目地址</a>
               </li>
               <li class="active">
                 <a href="./index.html">微信文案排版指南</a>
@@ -75,7 +76,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>微信文案排版指南</h1>
-    <p class="lead">GitHub项目地址：<a href="https://github.com/zifeixu85/wechat-copywriting-guidelines" target=_blank>https://github.com/zifeixu85/wechat-copywriting-guidelines</a></p>
+    <p class="lead" style="opacity:0.6;">对微信文章进行排版美化，更加方便、直观、简洁</p>
   </div>
 </header>
 
@@ -87,297 +88,184 @@
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
-          <li><a href="#readme"><i class="icon-chevron-right"></i> 前言 · 制作背景</a></li>
+          <li><a href="#readme"><i class="icon-chevron-right"></i> 前言 · 背景</a></li>
           <li><a href="#font-size"><i class="icon-chevron-right"></i> 字体大小</a></li>
-          <li><a href="#contents"><i class="icon-chevron-right"></i> 标题样式</a></li>
-          <li><a href="#html-template"><i class="icon-chevron-right"></i> 段落样式</a></li>
-          <li><a href="#examples"><i class="icon-chevron-right"></i> 其他</a></li>
-          <li><a href="#what-next"><i class="icon-chevron-right"></i> 下一步是什么？</a></li>
+          <li><a href="#title"><i class="icon-chevron-right"></i> 标题样式</a></li>
+          <li><a href="#paragraph"><i class="icon-chevron-right"></i> 段落样式</a></li>
+          <li><a href="#other"><i class="icon-chevron-right"></i> 其他</a></li>
         </ul>
       </div>
       <div class="span9">
 
 
 
-        <!-- Download
+        <!-- readme
         ================================================== -->
         <section id="readme">
           <div class="page-header">
-            <h1>1. 背景：为什么要做微信排版指南？</h1>
+            <h1>1. 为什么要做微信排版指南？</h1>
           </div>
           <img src="http://tuchuang001-upload.stor.sinaapp.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-07-27%2014.30.10.png">
-          <p class="text-info">上图是微信公众平台的素材编辑器，可以看到微信默认提供的编辑器功能非常简单。</p>
-          <p>如果我们想要排版一篇文章，要 <strong>指定字体大小</strong>，<strong>指定行间距</strong>，还要在标题上有点花样，要标识出<strong>引用的文字段落</strong>等等，通过这个编辑器是很难实现的。</p>
-          <p>微信的素材编辑器还有一个特性：可以从其他html网页中复制段落到编辑器，其中html里附带的文本样式也可以一并复制进来（部分），并且在手机端比较完美的显示出来。</p>
+          <p class="text-info" style="font-size:16px;">上图是微信公众平台的素材编辑器，可以看到微信默认提供的编辑器功能非常简单。</p><br>
+          <p style="font-size:16px;color:#6a6a6a;line-height:22px;">如果我们想要排版一篇文章，想要更舒服的文字大小，更适宜阅读的行间距，还要在把标题着重显示，要标识出引用的文字段落等等，通过这个编辑器是很难实现的。</p><br>
+          <p style="font-size:16px;color:#6a6a6a;line-height:22px;">但是微信的素材编辑器有一个特性：可以从其他网页中复制段落到编辑器，其中网页里附带的文本样式也可以一并复制进来（部分），并且在手机端比较完美的显示出来。</p><br>
           
-          <blockquote>
-            <p>
-              <small>因为没有使用过第三方的微信平台，不太清楚那些平台的编辑器功能，如果有第三方平台能提供更好的排版支持，也请你告诉我，谢谢！</small>
-            </p>
+
+          <p style="font-size:16px;color:#6a6a6a;line-height:22px;">基于此，我开始收集排版精美的格式，放置在一个html文件中，作为公司编辑日常排版使用；现在想想应该给更多的人带来方便，毕竟懂得html代码的编辑者我估计是很少很少的……</p><br>
+
+          
+          <p style="margin:auto; padding:5px 20px; background:#00bbec; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:left;font-size:15px;">为了方便大家对微信文章进行排版美化，我把一些自己常用的和排版比较好的格式放置在这个页面，直接复制即可使用。</p><br><br>
+
+          <blockquote style="padding:0px 20px;border-left:5px solid #c9c9c9;font-size:14px;color:#9e9e9e;line-height:22px;">
+          因为没有使用过第三方的微信平台，不太清楚那些平台的编辑器功能<br>如果有第三方平台能提供更好的排版支持，也请你告诉我，谢谢！
           </blockquote>
 
-<p style="margin:auto;font-family:STHeiti;padding:5px 20px; background:#00bbec; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">点击【阅读原文】更精彩！</p>
-<p class="qipao"><span class="bot">　</span></p>
-
-
-<br>
-
-<div class="row-fluid" >
-  <div class="span4"><iframe style="border:none;width:100%;overflow:hidden;height:100%;" src="http://tuchuang001-upload.stor.sinaapp.com/14064580952.html"></iframe></div>
-  <div class="span8"><iframe  style="border:none;width:100%;overflow-x:hidden;height:100%;" src="http://tuchuang001-upload.stor.sinaapp.com/14064580952.html"></iframe></div>
-</div>
-
-<style type="text/css">
-.aaa {font-family: "STHeiti"}</style>
-
- <blockquote>
-          <span style=" background-color: #5C7093; padding: 4px 10px; margin-right: 8px; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">小美公告</span>
- </blockquote>
-          <br><br>
-          <span style=" background-color: #5C7093; padding: 4px 10px; margin-right: 8px; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">小美公告</span>
-
-<br><br>
-          <span style=" background-color: #5C7093; padding: 4px 10px; margin-right: 8px; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">小美公告</span>
-<br><br>
-
-          <span style=" background-color: #5C7093; padding: 4px 10px; margin-right: 8px; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">小美公告</span>
-
-
-
           
-
-
-          <div class="row-fluid">
-            <div class="span6">
-              <h2>下载编译</h2>
-              <p>获得编译后和最小化的 CSS，JS还有图像文件是最快速的启动方法。不包含文档和原始代码文件。</p>
-              <p><a class="btn btn-large btn-primary" href="assets/bootstrap.zip" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">下载 Bootstrap</a></p>
-            </div>
-            <div class="span6">
-              <h2>下载源代码</h2>
-              <p>获得所有 CSS 和 JavaScript 原始文件，另外还包含一个说明文档的本地版本，可以直接在 GitHub 中下载最新的版本。</p>
-              <p><a class="btn btn-large" href="https://github.com/twitter/bootstrap/zipball/master" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download source']);">下载 Bootstrap 源文件</a></p>
-            </div>
-          </div>
         </section>
 
 
 
-        <!-- File structure
+        <!-- FontSize
         ================================================== -->
         <section id="font-size">
           <div class="page-header">
             <h1>2. 字体大小</h1>
           </div>
-          <p class="lead">方法：复制你需要的字体大小到微信编辑器中，在将纯文本的文字复制到其中即可</p>
+          <p class="lead">使用方法：复制你需要的字体大小到微信编辑器中，将纯文本的文字复制或输入到其中即可</p>
           
-          <br><br>
-          <blockquote style="padding:0px;margin:0px;text-transform:none;text-indent:0px;letter-spacing:normal;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
-          <span style="font-size: 10px; line-height: 10px;">10px字体，行间距10px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 12px; line-height: 12px;">12px字体，行间距12px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 14px; line-height: 14px;">14px字体，行间距14px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 16px; line-height: 16px;">16px字体，行间距16px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 18px; line-height: 18px;">18px字体，行间距18px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 20px; line-height: 20px;">20px字体，行间距20px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          <br><br>
-          <span style="font-size: 22px; line-height: 26px;">22px字体，行间距26px。测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距测试行间距</span>
-          </blockquote>
-          <br><br>
-          <p style="font-family: Avenir, sans-serif; border: 0px; font-size: 18px; margin-top: 12px; margin-bottom: 18px; padding: 0px; outline: 0px; color: rgb(51, 51, 51); white-space: normal;">灰度发布是互联网产品发布常用的一种方式，顾名思义，就是在黑和白之间平滑过渡的一种产品发布方式。产品发布者根据某种规则，让一部分用户继续用原来的产品功能，另一部分用户开始逐渐启用新功能，在过渡的过程中可能还会对产品做进一步的完善，灰度发布完成后，所有的用户都将使用新的产品功能。</p>
-          <br><br>
-          <blockquote style="text-transform:none;text-indent:0px;margin:20px;font:16px/25px sans-serif;letter-spacing:normal;color:#000000;border-left-color:#dddddd;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;padding:0px 20px;"><p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium"><span style="font-family:arial;color:#595959;font-size:24px">font size="5"</span></p><p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium"><span style="font-family:arial;color:#595959;font-size:18px">font size="4"</span></p><p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium"><span style="font-family:arial;color:#595959;font-size:16px">font size="3"</span></p><p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium"><span style="font-family:arial;color:#595959;font-size:12px">font size="2"</span></p><p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium"><span style="font-family:arial;color:#595959;font-size:10px">font size="1"</span></p></blockquote>
-          <br><br>
-          <blockquote style="text-transform:none;text-indent:0px;margin:20px;font:16px/25px sans-serif;letter-spacing:normal;color:#000000;border-left-color:#dddddd;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;padding:0px 20px;">
-            <p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium">
-              <span style="font-family:arial;color:#595959;font-size:24px">font size="5"</span></p>
-            <p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium">
-              <span style="font-family:arial;color:#595959;font-size:18px">font size="4"</span>
-            </p>
-            <p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium">
-              <span style="font-family:arial;color:#595959;font-size:16px">font size="3"</span>
-            </p>
-            <p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium">
-              <span style="font-family:arial;color:#595959;font-size:12px">font size="2"</span>
-            </p>
-            <p style="margin:5px 0px;font-family:simsun;color:#555555;font-size:medium">
-              <span style="font-family:arial;color:#595959;font-size:10px">font size="1"</span>
-            </p>
-          </blockquote>
-
-        <!-- Contents
-        ================================================== -->
-        <section id="contents">
-          <div class="page-header">
-            <h1>3. 包含的东西</h1>
+          <div class="bs-docs-example">
+            <iframe style="border:none;width:100%;height:330px;" src="./fontsize.html"></iframe>
           </div>
-          <p class="lead">Bootstrap 有很多东西，了解它们可以参阅 <a href="http://bootstrap.ninghao.net/doc">Bootstrap 使用说明</a>。</p>
 
-          <h2>文档章节</h2>
-          <h4><a href="scaffolding.html">布局</a></h4>
-          <p>布局的网格系统的使用</p>
-          <h4><a href="base-css.html">基础</a></h4>
-          <p>基础的 HTML 元素的样式，比如文字排版，代码，表格，表单，按钮，还包含一个来自 <a href="http://glyphicons.com">Glyphicons</a> 的图标集。</p>
-          <h4><a href="components.html">组件</a></h4>
-          <p>常用界面组件的基本样式，比如像选项卡，导航栏，警示，页面标题等等。</p>
-          <h4><a href="javascript.html">JavaScript 插件</a></h4>
-          <p>与组件类似，工具提示，对话框等等。</p>
 
-          <h2>组件列表</h2>
-          <p> <strong>组件</strong> 和 <strong> JavaScript 插件</strong> 提供了下面这些界面元素：</p>
-          <ul>
-            <li>按钮组</li>
-            <li>带下拉菜单的按钮</li>
-            <li>选项卡</li>
-            <li>导航栏</li>
-            <li>标签</li>
-            <li>徽章</li>
-            <li>页头与 hero 单元。</li>
-            <li>缩略图</li>
-            <li>警示</li>
-            <li>进度条</li>
-            <li>对话框</li>
-            <li>下拉菜单</li>
-            <li>工具提示</li>
-            <li>Popovers</li>
-            <li>手风琴</li>
-            <li>旋转木马</li>
-            <li>Typeahead</li>
-          </ul>
-          <p>在以后的说明文档里，我们会详细的逐个介绍。在此之前，你可以查看这个文档来学习如何使用和定制它们。</p>
+        <!-- Title
+        ================================================== -->
+        <section id="title">
+          <div class="page-header">
+            <h1>3. 标题样式</h1>
+          </div>
+          
+          <p>样式一：适用于引用段落、特殊段落等</p>
+          <div class="bs-docs-example">
+            <br>
+            <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#116D8A;">这里是微信排版指南</blockquote>
+          </div>
+
+
+
+          <br><p>样式二：适用于标题、文章末尾等处</p>
+          <div class="bs-docs-example">
+            <br>
+            <p style="margin:auto; padding:5px 20px; background:#00bbec; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">这里是微信排版指南</p>
+          </div>
+
+          <p>样式三：适用于文章底部，【阅读原文】链接上面</p>
+          <div class="bs-docs-example" style="height:70px;">
+            <br>
+            <p style="margin:auto; padding:5px 20px; background:#00bbec; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">这里是微信排版指南</p>
+            <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+              <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#00bbec transparent transparent; left:0px;bottom:-40px;">　</span>
+            </p>
+          </div>
+          
+
+          <p>样式四</p>
+          <div class="bs-docs-example">
+            <br>
+            <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
+        <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#00bbec; border-left-width: 10px; border-left-style: solid; border-left-color:#00bbec;">这里是微信排版指南</p>
+        </blockquote>
+          </div>
+
+          <p class="lead" style="padding-top:20px;">更多样式添加中……</p>
+
+
+
+          
+
         </section>
 
 
 
-        <!-- HTML template
+        <!-- Paragraph
         ================================================== -->
-        <section id="html-template">
+        <section id="paragraph">
           <div class="page-header">
-            <h1>4. 基础 HTML 模板</h1>
+            <h1>4. 段落样式</h1>
           </div>
-          <p class="lead">想要使用 Bootstrap，可以基于这个简单的 HTML 模板，这里面包含了我们在 <a href="./getting-started.html#file-structure">文件结构</a> 里提到的所有东西。</p>
-          <p>下面是一个<strong>典型的 html 文件</strong>：</p>
-<pre class="prettyprint linenums">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;
-    &lt;script src="http://code.jquery.com/jquery.js"&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
-          <p>把它变成 <strong>Bootstrap 模板</strong>，只需要包含合适的 CSS 和 JS 文件：</p>
-<pre class="prettyprint linenums">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;!-- Bootstrap --&gt;
-    &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;
-    &lt;script src="http://code.jquery.com/jquery.js"&gt;&lt;/script&gt;
-    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
-          <p><strong>哈，成功！</strong> 用这两个添加的文件，你就可以开发基于 Bootstrap 的应用了。</p>
+          
+          <p>样式一：适用于引用段落、特殊段落等</p>
+          <div class="bs-docs-example">
+            <br>
+            <blockquote style="padding:0px 20px;border-left:5px solid #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote>
+          </div>
+
+
+          <p>样式二</p>
+          <div class="bs-docs-example">
+            <br>
+            <blockquote style="padding:10px 20px;border:2px solid #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote>
+          </div>
+
+          <p>样式三</p>
+          <div class="bs-docs-example">
+            <br>
+            <p style="margin:auto; padding:2px 20px; border:2px dashed #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+          </div>
+
+
+          
+          <p>样式四</p>
+          <div class="bs-docs-example">
+            <br>
+            <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: rgba(0, 0, 0, 0.247059) 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+          </div>
+
+
+          <p>样式五</p>
+          <div class="bs-docs-example">
+            <br>
+            <p style="margin:auto; background: hsla(192,100%,100%,1);padding:5px 20px; -moz-box-shadow: 0 0 10px #aaa inset; -webkit-box-shadow: 0 0 10px #aaa inset; box-shadow: 0 0 10px #aaa inset;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+          </div>
+
+          <p>样式六</p>
+          <div class="bs-docs-example">
+            <br>
+            <p style="margin:auto 0px; background:#00bbec; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">这里是微信排版指南</p>
+            <p style="margin:auto 0px; background:#e3e3e3; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+          </div>
+
+          <p>样式七</p>
+          <div class="bs-docs-example">
+            <br>
+            <fieldset style="white-space: normal; margin: 15px; padding: 20px; border: 1px dotted #c0504d;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+              <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #c0504d;">这里是微信排版指南</p></legend>
+                <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #c0504d; word-wrap: break-word !important;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p></fieldset>
+          </div>
+
+
+          
+
+          <p class="lead" style="padding-top:20px;">更多样式添加中……</p>
+
         </section>
 
 
 
-        <!-- Examples
+        <!-- Other
         ================================================== -->
-        <section id="examples">
+        <section id="other">
           <div class="page-header">
-            <h1>5. 示例</h1>
+            <h1>5. 其他</h1>
           </div>
-          <p class="lead">来看几个示范布局，最好别直接就用，可以加上点自己的想法。</p>
-          <ul class="thumbnails bootstrap-examples">
-            <li class="span3">
-              <a class="thumbnail" href="examples/starter-template.html">
-                <img src="assets/img/examples/bootstrap-example-starter.png" alt="">
-              </a>
-              <h4>启动模板</h4>
-              <p>包含 Bootstrap CSS 和 JS 的 HTML 文档。</p>
-            </li>
-            <li class="span3">
-              <a class="thumbnail" href="examples/hero.html">
-                <img src="assets/img/examples/bootstrap-example-marketing.png" alt="">
-              </a>
-              <h4>简单的营销网站</h4>
-              <p>一个 hero 单元展示主要内容，附加上三个辅助元素。</p>
-            </li>
-            <li class="span3">
-              <a class="thumbnail" href="examples/fluid.html">
-                <img src="assets/img/examples/bootstrap-example-fluid.png" alt="">
-              </a>
-              <h4>流动布局</h4>
-              <p>使用我们的响应式，流动网格系统创建无缝流动布局。</p>
-            </li>
 
-            <li class="span3">
-              <a class="thumbnail" href="examples/marketing-narrow.html">
-                <img src="assets/img/examples/bootstrap-example-marketing-narrow.png" alt="">
-              </a>
-              <h4>小型营销网站</h4>
-              <p>为小团队和项目准备的轻量级营销网站模板。</p>
-            </li>
-            <li class="span3">
-              <a class="thumbnail" href="examples/justified-nav.html">
-                <img src="assets/img/examples/bootstrap-example-justified-nav.png" alt="">
-              </a>
-              <h4>两端对齐导航</h4>
-              <p>带有等宽导航链接的营销页面。</p>
-            </li>
-            <li class="span3">
-              <a class="thumbnail" href="examples/signin.html">
-                <img src="assets/img/examples/bootstrap-example-signin.png" alt="">
-              </a>
-              <h4>登录</h4>
-              <p>自定义的标准登录表单。</p>
-            </li>
-
-            <li class="span3">
-              <a class="thumbnail" href="examples/sticky-footer.html">
-                <img src="assets/img/examples/bootstrap-example-sticky-footer.png" alt="">
-              </a>
-              <h4>固定页脚</h4>
-              <p>将页面固定在用户的可视窗口底部</p>
-            </li>
-            <li class="span3">
-              <a class="thumbnail" href="examples/carousel.html">
-                <img src="assets/img/examples/bootstrap-example-carousel.png" alt="">
-              </a>
-              <h4>旋转木马</h4>
-              <p>更具交互的基本营销网站，轮番展示突显内容。</p>
-            </li>
-          </ul>
+        <blockquote>说明：维护作者不是前端工程师，只是一枚交互射鸡师，很多前端知识都是临时Google的，如果你有更好的修改建议或者想法，请一定一定联系我，让我们一起把这个页面维护好，以便帮助更多不会代码的小伙伴更加方便的编辑排版微信文章。谢谢你的支持！
+        <br><br>页面最底部是我的联系方式 ^_^
+        </blockquote>
         </section>
 
 
-
-
-        <!-- Next
-        ================================================== -->
-        <section id="what-next">
-          <div class="page-header">
-            <h1>下一步是什么？</h1>
-          </div>
-          <p class="lead">阅读文档学习使用 Bootstrap，或者更进一步为下个项目去定制 Bootstrap。</p>
-          <a class="btn btn-large btn-primary" href="./scaffolding.html" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Next steps', 'Visit docs']);">查看 Bootstrap 文档</a>
-          <a class="btn btn-large" href="./customize.html" style="margin-left: 5px;" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Next steps', 'Customize']);">自定义 Bootstrap</a>
-        </section>
 
 
 
@@ -393,11 +281,11 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>在宁皓网学会使用 Bootstrap 创建真正的网站项目</p>
+        <p>本页面根据Bootstrap创建，由 zifeixu85 维护</p>
         <ul class="footer-links">
-          <li><a href="http://ninghao.net">宁皓网</a></li>
+          <li><a href="http://weibo.com/zifeixu">微博</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="http://ninghao.net/course">视频教程</a></li>
+          <li><a href="https://twitter.com/zifeixu85">Twitter</a></li>
         </ul>
       </div>
     </footer>
