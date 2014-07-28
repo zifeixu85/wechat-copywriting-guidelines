@@ -34,3 +34,4 @@ DEMO地址：<a target=_blank href="http://zifeixu85.github.io/wechat-copywritin
 
 - <a target=_blank href="http://admin.wechat.com/mp/appmsg/show?__biz=MjM5NjgzNzI0Mw==&appmsgid=10000047&itemidx=1&sign=523d1097ad46611c46a7ca0ffe2c18b0" >刘健亮微信排版教程汇总</a>
 - <a target=_blank href="http://blce.me/diy-micro-articles-format.html" >DIY微信公众平台文章排版格式</a>
+- <a target=_blank href="http://jianshu.io/p/57bb12103153" >好排版的样子</a>
