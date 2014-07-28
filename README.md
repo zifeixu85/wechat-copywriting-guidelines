@@ -1,6 +1,6 @@
 #微信公众平台文案排版指南
 
-DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-copywriting-guidelines/)
+DEMO地址：<a target=_blank href="http://zifeixu85.github.io/wechat-copywriting-guidelines/" >Wechat-Copywriting-Guidelines</a>
 
 ### 背景：为什么要做微信排版指南？
 
@@ -27,7 +27,7 @@ DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-c
 
 使用请至：
 
-# DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-copywriting-guidelines/)
+### DEMO地址：<a target=_blank href="http://zifeixu85.github.io/wechat-copywriting-guidelines/" >Wechat-Copywriting-Guidelines</a>
 
 
 ### 参考文献
