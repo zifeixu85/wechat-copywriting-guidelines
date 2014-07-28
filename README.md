@@ -27,4 +27,10 @@ DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-c
 
 使用请至：
 
-### DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-copywriting-guidelines/)
+# DEMO地址：[wechat-copywriting-guidelines](http://zifeixu85.github.io/wechat-copywriting-guidelines/)
+
+
+### 参考文献
+
+- <a target=_blank href="http://admin.wechat.com/mp/appmsg/show?__biz=MjM5NjgzNzI0Mw==&appmsgid=10000047&itemidx=1&sign=523d1097ad46611c46a7ca0ffe2c18b0" >刘健亮微信排版教程汇总</a>
+- <a target=_blank href="http://blce.me/diy-micro-articles-format.html" >DIY微信公众平台文章排版格式</a>
