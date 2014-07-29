@@ -572,7 +572,7 @@ h2 + .row {
 /* Base class */
 .bs-docs-example {
   position: relative;
-  width:50%;
+
   margin: 15px 0;
   padding: 39px 19px 14px;
   *padding-top: 19px;
