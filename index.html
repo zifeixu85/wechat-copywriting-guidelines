@@ -1,11 +1,24 @@
 
 <!DOCTYPE html>
+
+<!-- 
+
+不好意思，我是做设计的，只会基础的html+css，页面很简陋，代码很乱，请多多见谅 
+
+如果你会js，想跟我一起把这个页面做到更方便好用，请联系我~
+
+梓非徐
+微信：zifeixu85
+QQ：1400747138
+  
+-->
+
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <title>微信排版指南</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="为方便微信文章排版">
+    <meta name="description" content="更方便的微信文章排版美化">
     <meta name="author" content="">
 
     <!-- Le styles -->
@@ -40,6 +53,31 @@
 
   </head>
 
+<style type="text/css">
+.edit-content-box {
+  display:block;
+  width:540px;
+  padding:16px;
+  text-align:left;
+  color:#34363c;
+  background-color:#fff
+}
+.edit-content-box:focus {
+  -webkit-box-shadow:0 0 4px 3px #c95e57 inset;
+  -moz-box-shadow:0 0 4px 3px #c95e57 inset;
+  box-shadow:0 0 4px 3px #c95e57 inset;
+  outline:0
+}
+.edit-content-box .inner {
+  font-size:16px
+}
+.edit-content-prompt {
+  color:#3f4652;
+  font-size:1.2em;
+  margin-top:1em;
+  margin-bottom:2em
+}
+</style>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
 
@@ -53,16 +91,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">回到顶部</a>
+          <a class="brand" href="https://github.com/zifeixu85/wechat-copywriting-guidelines/tree/gh-pages" target=_blank>GitHub项目地址</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
                 <a href="./index.html">基础排版</a>
-              </li>
-              
-              <li class="">
-                <a href="https://github.com/zifeixu85/wechat-copywriting-guidelines/tree/gh-pages" target=_blank >GitHub项目地址</a>
-              </li>
+              </li>        
               <li class="">
                 <a>请记住本站域名：weixinpaiban.com (微信排版)</a>
               </li>
@@ -78,8 +112,8 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>微信排版指南</h1>
-    <p class="lead" style="opacity:0.6;margin-bottom:5px;">微信公众平台文章的DIY排版美化，方便简单</p>
-    <p  style="font-size:18px;line-height:22px;opacity:0.6;letter-spacing:1px;font-weight:bold;">weixinpaiban.com</p>
+    <p class="lead" style="opacity:0.6;margin-bottom:5px;">更方便的微信文章排版美化</p>
+  
   </div>
 </header>
 
@@ -91,15 +125,16 @@
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
-          <li><a href="#readme"><i class="icon-chevron-right"></i> 前言 · 背景</a></li>
-          <li><a href="#font-size"><i class="icon-chevron-right"></i> 字体大小</a></li>
-          <li><a href="#title"><i class="icon-chevron-right"></i> 标题样式</a></li>
-          <li><a href="#paragraph"><i class="icon-chevron-right"></i> 段落样式</a></li>
-          <li><a href="#other"><i class="icon-chevron-right"></i> 其他样式</a></li>
-          <li><a href="#comment"><i class="icon-chevron-right"></i> 反馈&讨论</a></li>
+          <li><a href="#readme"><i class="icon-chevron-right"></i> 1.前言 · 背景</a></li>
+          <li><a href="#font-size"><i class="icon-chevron-right"></i> 2.字体大小</a></li>
+          <li><a href="#title"><i class="icon-chevron-right"></i> 3.标题样式</a></li>
+          <li><a href="#paragraph"><i class="icon-chevron-right"></i> 4.段落样式</a></li>
+          <li><a href="#other"><i class="icon-chevron-right"></i> 5.其他样式</a></li>
+          <li><a href="#comment"><i class="icon-chevron-right"></i> 6.反馈&讨论</a></li>
         </ul>
       </div>
       <div class="span9">
+ 
 
 
 
@@ -135,13 +170,38 @@
           <div class="page-header">
             <h1>2. 字体大小</h1>
           </div>
-          <p class="lead">使用方法：复制你需要的字体大小到微信编辑器中，将纯文本的文字复制或输入到其中即可</p>
-          <p class="text-warning">注意：文字颜色可在编辑器中任意修改</p>
-          
-          <div class="bs-docs-example">
-            <iframe style="border:none;width:100%;height:330px;" src="./fontsize.html"></iframe>
-          </div>
 
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                字体大小
+            </h4>
+            <ul class="nav nav-pills">
+                <li>
+                  <p >使用方法：复制你需要的字体大小到微信编辑器中，将纯文本的文字复制或输入到其中即可</p>
+                  <p class="text-warning">注意：文字颜色可在编辑器中任意修改</p>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Font_Style1_1">
+                        <p><font style="font-size:10px;">这里的字体大小是：12px</font></p>
+                        <p><font style="font-size:12px;">这里的字体大小是：13px</font></p>
+                        <p><font style="font-size:13px;">这里的字体大小是：14px</font></p>
+                        <p><font style="font-size:14px;">这里的字体大小是：16px</font></p>
+                        <p><font style="font-size:18px;">这里的字体大小是：18px</font></p>
+                        <p><font style="font-size:20px;">这里的字体大小是：20px</font></p>
+                        <p><font style="font-size:22px;">这里的字体大小是：22px</font></p>
+                        <p><font style="font-size:24px;">这里的字体大小是：24px</font></p>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div><br>
 
         <!-- Title
         ================================================== -->
@@ -151,474 +211,632 @@
           </div>
           
           
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式一：适用于引用段落、特殊段落等</p>
-            <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style1_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style1_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
-            </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style1_1">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#228ED5;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_2">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#FF6C23;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_3">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#8CC63E;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_4">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#FFC20F;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_5">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#01AAAD;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_6">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#FF0066;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_7">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#7B1B72;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_8">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#EB030D;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style1_9">
-                  <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #e5e5e5;background-color:#B0BDCD;">请将我复制到微信编辑器中</blockquote><br>
-                </div>
-              </div><br>
-          </div>
-        </div>
-        <br>
-
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式二：适用于标题、文章末尾等处</p>
-            <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style2_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style2_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
-            </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style2_1">
-                  <p style="margin:auto; padding:5px 20px; background:#228ED5; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_2">
-                  <p style="margin:auto; padding:5px 20px; background:#FF6C23; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_3">
-                  <p style="margin:auto; padding:5px 20px; background:#8CC63E; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_4">
-                  <p style="margin:auto; padding:5px 20px; background:#FFC20F; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_5">
-                  <p style="margin:auto; padding:5px 20px; background:#01AAAD; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_6">
-                  <p style="margin:auto; padding:5px 20px; background:#FF0066; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_7">
-                  <p style="margin:auto; padding:5px 20px; background:#7B1B72; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_8">
-                  <p style="margin:auto; padding:5px 20px; background:#EB030D; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style2_9">
-                  <p style="margin:auto; padding:5px 20px; background:#B0BDCD; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
-                </div>
-              </div>
-              <br><br>
-          </div>
-        </div>
-        <br>
-         
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式三：适用于文章底部，【阅读原文】链接上面</p>
-            <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style3_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style3_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
-            </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style3_1" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#228ED5; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#228ED5 transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_2" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#FF6C23; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#FF6C23 transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_3" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#8CC63E; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#8CC63E transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_4" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#FFC20F; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#FFC20F transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_5" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#01AAAD; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#01AAAD transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_6" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#FF0066; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#FF0066 transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_7" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#7B1B72; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#7B1B72 transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_8" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#EB030D; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#EB030D transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <div class="tab-pane" id="Til_Style3_9" style="height:50px;">
-                  <p style="margin:auto; padding:5px 20px; background:#B0BDCD; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
-                  <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
-                    <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#B0BDCD transparent transparent; left:0px;bottom:-40px;">　</span>
-                  </p><br>
-                </div>
-                <br>
-              </div>
-          </div>
-        </div>
-        <br>
 
  
+        <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式一：适用于引用段落、特殊段落等
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Til_Style1_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style1_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style1_1">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#33b5e5;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_2">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#5fb874;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_3">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#ff8833;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_4">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#ea4c89;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_5">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#ff3e43;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_6">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#000000;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_7">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#95a5a6;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_8">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #c9c9c9;background-color:#000000;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style1_9">
+                        <blockquote style="text-align:center;color:#ffffff;padding:5px 20px;border:2px dashed #e5e5e5;background-color:#B0BDCD;">
+                            请将我复制到微信编辑器中
+                        </blockquote>
+                        <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div><br>
+    
+           
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式二：适用于标题、文章末尾等处
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Til_Style2_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style2_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style2_1">
+                        <p style="margin:auto; padding:5px 20px; background:#33b5e5; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_2">
+                       <p style="margin:auto; padding:5px 20px; background:#5fb874; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_3">
+                        <p style="margin:auto; padding:5px 20px; background:#ff8833; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                        <br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_4">
+                        <p style="margin:auto; padding:5px 20px; background:#ea4c89; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_5">
+                        <p style="margin:auto; padding:5px 20px; background:#ff3e43; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_6">
+                        <p style="margin:auto; padding:5px 20px; background:#000000; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style2_7">
+                        <p style="margin:auto; padding:5px 20px; background:#95a5a6; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式三：适用于文章底部，【阅读原文】链接上面
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Til_Style3_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style3_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style3_1">
+                        <p style="margin:auto; padding:5px 20px; background:#33b5e5; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#33b5e5 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_2">
+                        <p style="margin:auto; padding:5px 20px; background:#5fb874; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#5fb874 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_3">
+                         <p style="margin:auto; padding:5px 20px; background:#ff8833; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#ff8833 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_4">
+                        <p style="margin:auto; padding:5px 20px; background:#ea4c89; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#ea4c89 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_5">
+                        <p style="margin:auto; padding:5px 20px; background:#ff3e43; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#ff3e43 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_6">
+                        <p style="margin:auto; padding:5px 20px; background:#000000; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#000000 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style3_7">
+                        <p style="margin:auto; padding:5px 20px; background:#95a5a6; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; text-align:center;">请将我复制到微信编辑器中</p>
+                        <p style="width:auto; margin:auto 5px; padding:0px 0px; border:0px solid #beceeb; position:relative;">
+                          <span style="width:0; height:0; font-size:0; overflow:hidden; position:absolute;border-width:20px; border-style:solid dashed dashed; border-color:#95a5a6 transparent transparent; left:0px;bottom:-40px;">　</span>
+                        </p><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+
           
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式四：（微信内紧贴左侧屏幕边缘显示）</p>
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式四：（微信内紧贴左侧屏幕边缘显示）
+            </h4>
             <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style4_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style4_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
+                <li class="active">
+                    <a href="#Til_Style4_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style4_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
             </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style4_1">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#228ED5; border-left-width: 10px; border-left-style: solid; border-left-color:#228ED5;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_2">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#FF6C23; border-left-width: 10px; border-left-style: solid; border-left-color:#FF6C23;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_3">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#8CC63E; border-left-width: 10px; border-left-style: solid; border-left-color:#8CC63E;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_4">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#FFC20F; border-left-width: 10px; border-left-style: solid; border-left-color:#FFC20F;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_5">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#01AAAD; border-left-width: 10px; border-left-style: solid; border-left-color:#01AAAD;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_6">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#FF0066; border-left-width: 10px; border-left-style: solid; border-left-color:#FF0066;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_7">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#7B1B72; border-left-width: 10px; border-left-style: solid; border-left-color:#7B1B72;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_8">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#EB030D; border-left-width: 10px; border-left-style: solid; border-left-color:#EB030D;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style4_9">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#B0BDCD; border-left-width: 10px; border-left-style: solid; border-left-color:#B0BDCD;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-              </div><br>
           </div>
-        </div>
-        <br>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style4_1">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color:none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#33b5e5; border-left-width: 10px; border-left-style: solid; border-left-color:#33b5e5;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_2">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#5fb874; border-left-width: 10px; border-left-style: solid; border-left-color:#5fb874;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_3">
+                         <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#ff8833; border-left-width: 10px; border-left-style: solid; border-left-color:#ff8833;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_4">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#ea4c89; border-left-width: 10px; border-left-style: solid; border-left-color:#ea4c89;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_5">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#ff3e43; border-left-width: 10px; border-left-style: solid; border-left-color:#ff3e43;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_6">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#000000; border-left-width: 10px; border-left-style: solid; border-left-color:#000000;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style4_7">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto -16px; padding:5px 10px; font-size:18px; color:#95a5a6; border-left-width: 10px; border-left-style: solid; border-left-color:#95a5a6;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+          
+          
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式五：（微信内距离贴左侧屏幕边缘有空格效果）
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Til_Style5_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style5_1">
+                       &nbsp;<blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#33b5e5; border-left-width: 10px; border-left-style: solid; border-left-color:#33b5e5;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#5fb874; border-left-width: 10px; border-left-style: solid; border-left-color:#5fb874;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_3">
+                         <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#ff8833; border-left-width: 10px; border-left-style: solid; border-left-color:#ff8833;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_4">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#ea4c89; border-left-width: 10px; border-left-style: solid; border-left-color:#ea4c89;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_5">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#ff3e43; border-left-width: 10px; border-left-style: solid; border-left-color:#ff3e43;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_6">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#000000; border-left-width: 10px; border-left-style: solid; border-left-color:#000000;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_7">
+                        <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: none;border-left:5px;">
+                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#95a5a6; border-left-width: 10px; border-left-style: solid; border-left-color:#95a5a6;">请将我复制到微信编辑器中</p>
+                  </blockquote>&nbsp;
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
 
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式五：（微信内距离贴左侧屏幕边缘有空格效果）</p>
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式六
+            </h4>
             <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style5_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style5_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
+                <li class="active">
+                    <a href="#Til_Style5_2_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style5_2_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                
             </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style5_1">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#228ED5; border-left-width: 10px; border-left-style: solid; border-left-color:#228ED5;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_2">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#FF6C23; border-left-width: 10px; border-left-style: solid; border-left-color:#FF6C23;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_3">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#8CC63E; border-left-width: 10px; border-left-style: solid; border-left-color:#8CC63E;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_4">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#FFC20F; border-left-width: 10px; border-left-style: solid; border-left-color:#FFC20F;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_5">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#01AAAD; border-left-width: 10px; border-left-style: solid; border-left-color:#01AAAD;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_6">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#FF0066; border-left-width: 10px; border-left-style: solid; border-left-color:#FF0066;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_7">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#7B1B72; border-left-width: 10px; border-left-style: solid; border-left-color:#7B1B72;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_8">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#EB030D; border-left-width: 10px; border-left-style: solid; border-left-color:#EB030D;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-                <div class="tab-pane" id="Til_Style5_9">
-                  <blockquote style="margin: 0px; padding: 0px; max-width: 100%; background-color: #FFF;border-left:5px;">
-                    <p style="margin:auto 0px auto 0px; padding:5px 10px; font-size:18px; color:#B0BDCD; border-left-width: 10px; border-left-style: solid; border-left-color:#B0BDCD;">请将我复制到微信编辑器中</p>
-                  </blockquote><br>
-                </div>
-              </div><br>
           </div>
-        </div>
-        <br>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Til_Style5_2_1">               
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #33b5e5; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #33b5e5;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_2">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #5fb874; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #5fb874;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_3">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #ff8833; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #ff8833;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_4">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #ea4c89; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #ea4c89;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_5">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #ff3e43; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #ff3e43;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_6">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #000000; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #000000;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Til_Style5_2_7">
+                      <section style="padding: 0px 0.5em; margin: -0.1em 0px; border-left-width: 3px; border-left-style: solid; border-color: #95a5a6; color: #333333; font-size: 1em; line-height: 1.4em; text-align: justify;" >
+                        <section style="line-height: 1.4em;padding-top:0; font-size: 1.5em; font-family: inherit;font-weight: bold; font-style: normal; color: #95a5a6;">标题</section>
+                        <section style="line-height:1.4em ;padding-top:0;  margin-top: 0.3em; font-size: 1em; font-family: inherit; font-style: normal; color: #333333;" >请将我复制到微信编辑器中</section>
+                      </section>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
 
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <p class="page-header-p">样式六</p>
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式七
+            </h4>
             <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#Til_Style6_1" data-toggle="tab"  style="background:#228ED5;color:#ffffff;">湖蓝</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_2" data-toggle="tab"  style="background:#FF6C23;color:#ffffff;">鲜橙</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_3" data-toggle="tab"  style="background:#8CC63E;color:#ffffff;">骚绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_4" data-toggle="tab"  style="background:#FFC20F;color:#ffffff;">嫩黄</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_5" data-toggle="tab"  style="background:#01AAAD;color:#ffffff;">蓝绿</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_6" data-toggle="tab"  style="background:#FF0066;color:#ffffff;">浅粉</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_7" data-toggle="tab"  style="background:#7B1B72;color:#ffffff;">雅紫</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_8" data-toggle="tab"  style="background:#EB030D;color:#ffffff;">大红</a>
-              </li>
-              <li>
-                <a href="#Til_Style6_9" data-toggle="tab"  style="background:#B0BDCD;color:#ffffff;">浅灰</a>
-              </li>
+                <li class="active">
+                    <a href="#Til_Style6_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Til_Style6_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
             </ul>
-            <br>
-          <div class="bs-docs-example">      
-            <br>
-              <div class="tab-content">
-                <div class="tab-pane active " id="Til_Style6_1">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #228ED5; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #228ED5; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_2">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #FF6C23; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #FF6C23; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_3">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #8CC63E; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #8CC63E; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_4">
-                 <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #FFC20F; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #FFC20F; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_5">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #01AAAD; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #01AAAD; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_6">
-                 <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #FF0066; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #FF0066; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_7">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #7B1B72; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #7B1B72; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_8">
-                 <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #EB030D; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #EB030D; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-                <div class="tab-pane" id="Til_Style6_9">
-                  <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #B0BDCD; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #B0BDCD; font-weight: bold;">请将我复制到微信编辑器中</span></h2>
-                <br></div>
-              </div><br>
           </div>
-        </div>
-        <br>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Til_Style6_1">
+                       <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #33b5e5; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #33b5e5; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_2">
+                        <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #5fb874; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #5fb874; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_3">
+                         <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #ff8833; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #ff8833; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_4">
+                        <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #ea4c89; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #ea4c89; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_5">
+                        <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #ff3e43; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #ff3e43; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_6">
+                        <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #000000; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #000000; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                    <div class="tab-pane" id="Til_Style6_7">
+                        <h2 style="font-family: 微软雅黑, 宋体, tahoma, arial; margin: 8px 0px 0px; padding: 0px; font-size: 12px; font-weight: normal; color: rgb(62, 62, 62); white-space: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(227, 227, 227); height: 32px; line-height: 18px;"><span style="font-family: 微软雅黑, sans-serif !important; font-size: 16px; color: #95a5a6; display: block; float: left; padding: 0px 2px 3px; line-height: 28px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #95a5a6; font-weight: bold;">请将我复制到微信编辑器中</span></h2><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+          
+
+        
 
 
 
@@ -639,67 +857,770 @@
             <h1>4. 段落样式</h1>
           </div>
           
-          <p>样式一：适用于引用段落、特殊段落等</p>
-          <div class="bs-docs-example">
-            <br>
-            <blockquote style="padding:0px 20px;border-left:5px solid #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote>
-            <br>
-          </div>
-
-
-          <p>样式二</p>
-          <div class="bs-docs-example">
-            <br>
-            <blockquote style="padding:10px 20px;border:2px solid #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote>
-            <br>
-          </div>
-
-          <p>样式三</p>
-          <div class="bs-docs-example">
-            <br>
-            <p style="margin:auto; padding:2px 20px; border:2px dashed #c9c9c9;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
-            <br>
-          </div>
-
-
           
-          <p>样式四</p>
-          <div class="bs-docs-example">
-            <br>
-            <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: rgba(0, 0, 0, 0.247059) 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
-            <br>
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式一：适用于引用段落、特殊段落等
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style1_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style1_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
           </div>
-
-
-          <p>样式五</p>
-          <div class="bs-docs-example">
-            <br>
-            <p style="margin:auto; background: hsla(192,100%,100%,1);padding:5px 20px; -moz-box-shadow: 0 0 10px #aaa inset; -webkit-box-shadow: 0 0 10px #aaa inset; box-shadow: 0 0 10px #aaa inset;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
-            <br>
-          </div>
-
-          <p>样式六</p>
-          <div class="bs-docs-example">
-            <br>
-            <p style="margin:auto 0px; background:#00bbec; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
-            <p style="margin:auto 0px; background:#e3e3e3; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
-            <br>
-          </div>
-
-          <p>样式七</p>
-          <div class="bs-docs-example">
-            <br>
-            <fieldset style="white-space: normal; margin: 15px; padding: 10px; border: 1px dotted #c0504d;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
-              <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
-                <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #c0504d;">请将我复制到微信编辑器中</p></legend>
-                <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #c0504d; word-wrap: break-word !important;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p></fieldset>
+          <div class="span4">
+            <div class="bs-docs-example">
                 <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Paragraph_Style1_1">
+                       <blockquote style="font-family:  微软雅黑, sans-serif !important; font-size: 14px; padding:0px 20px;border-left:5px solid #33b5e5;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_2">
+                        <blockquote style="padding:0px 20px;border-left:5px solid #5fb874;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_3">
+                         <blockquote style="padding:0px 20px;border-left:5px solid #ff8833;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_4">
+                        <blockquote style="padding:0px 20px;border-left:5px solid #ea4c89;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_5">
+                        <blockquote style="padding:0px 20px;border-left:5px solid #ff3e43;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_6">
+                        <blockquote style="padding:0px 20px;border-left:5px solid #000000;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style1_7">
+                        <blockquote style="padding:0px 20px;border-left:5px solid #95a5a6;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式二
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style2_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style2_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
           </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Paragraph_Style2_1">
+                       <blockquote style="padding:10px 20px;border:2px solid #33b5e5;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_2">
+                        <blockquote style="padding:10px 20px;border:2px solid #5fb874;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_3">
+                         <blockquote style="padding:10px 20px;border:2px solid #ff8833;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_4">
+                        <blockquote style="padding:10px 20px;border:2px solid #ea4c89;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_5">
+                        <blockquote style="padding:10px 20px;border:2px solid #ff3e43;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_6">
+                        <blockquote style="padding:10px 20px;border:2px solid #000000;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style2_7">
+                        <blockquote style="padding:10px 20px;border:2px solid #95a5a6;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</blockquote><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式三
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style3_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style3_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                    <div class="tab-pane active " id="Paragraph_Style3_1">
+                       <p style="margin:auto; padding:2px 20px; border:2px dashed #33b5e5;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_2">
+                        <p style="margin:auto; padding:2px 20px; border:2px dashed #5fb874;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_3">
+                         <p style="margin:auto; padding:2px 20px; border:2px dashed #ff8833;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_4">
+                        <p style="margin:auto; padding:2px 20px; border:2px dashed #ea4c89;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_5">
+                        <p style="margin:auto; padding:2px 20px; border:2px dashed #ff3e43;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_6">
+                        <p style="margin:auto; padding:2px 20px; border:2px dashed #000000;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style3_7">
+                        <p style="margin:auto; padding:2px 20px; border:2px dashed #95a5a6;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+
+          
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式四
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style4_1" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_2" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_3" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_4" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_5" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_6" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style4_7" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Paragraph_Style4_1">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #95a5a6 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_2">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #33b5e5 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_3">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #5fb874 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_4">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #ff8833 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_5">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #ea4c89 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_6">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #ff3e43 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style4_7">
+                       <p style="margin:auto; padding:10px 20px 10px 20px; box-shadow: #000000 0px 1px 2px; color: rgb(86, 86, 86); background: rgb(255, 255, 255);">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p><br>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
+          
+
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式五
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style5_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style5_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Paragraph_Style5_1">
+                       <p style="margin:auto 0px; background:#33b5e5; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_2">
+                       <p style="margin:auto 0px; background:#5fb874; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_3">
+                       <p style="margin:auto 0px; background:#ff8833; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_4">
+                       <p style="margin:auto 0px; background:#ea4c89; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_5">
+                       <p style="margin:auto 0px; background:#ff3e43; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_6">
+                       <p style="margin:auto 0px; background:#000000; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style5_7">
+                       <p style="margin:auto 0px; background:#95a5a6; color:#FFF; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; text-align:center; padding:5px 20px;">请将我复制到微信编辑器中</p>
+                       <p style="margin:auto 0px; background:#eaeaea; padding:5px 20px;">这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。</p>
+                       <br>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式六
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style6_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style6_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Paragraph_Style6_1">
+                      <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #33b5e5;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #33b5e5;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #33b5e5; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_2">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #5fb874;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #5fb874;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #5fb874; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_3">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #ff8833;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #ff8833;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #ff8833; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_4">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #ea4c89;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #ea4c89;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #ea4c89; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_5">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #ff3e43;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #ff3e43;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #ff3e43; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_6">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #000000;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #000000;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #000000; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style6_7">
+                       <fieldset style="white-space: normal; margin: 15px; padding: 12px; border: 1px dotted #95a5a6;  text-align: justify; background-color: rgb(255, 255, 255); color: rgb(73, 68, 41); line-height: 2em; min-height: 1.5em; border-bottom-right-radius: 15px; border-bottom-left-radius: 10px; word-wrap: break-word !important;">
+                        <legend style="font-family: 微软雅黑;border:none; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-align: center;">
+                          <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px 20px 4px 20px;   line-height: 2em; color: rgb(255, 255, 255); font-size: 16px; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; background-color: #95a5a6;">请将我复制到微信编辑器中</p>
+                        </legend>
+                        <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; min-height: 1.5em;  line-height: 1.6em; color: #95a5a6; word-wrap: break-word !important;">
+                          这里是微信排版指南，以开源形式建立在GitHub，欢迎补充添加更多样式，谢谢你的支持！这一段落为演示段落，请复制到微信编辑器中，并在手机端预览效果。
+                        </p>
+                    </fieldset>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
+       
+
+
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式七
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style7_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style7_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Paragraph_Style7_1">               
+                      <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #33b5e5; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_2">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #5fb874; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_3">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #ff8833; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_4">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #ea4c89; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_5">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #ff3e43; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_6">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #000000; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style7_7">
+                       <section style="margin: 0.5em; padding: 0; color: lightblue; ">
+                      <section style="margin-left: 1em; font-size: 0.8em; line-height: 1.4em;">
+                      <span style="padding: 0.2em 0.5em; border-radius: 0.3em; background-color: #95a5a6; color: white; text-align: center;">
+                        请输入标题
+                      </span>
+                      </section>
+                      <section style="margin-top: -0.7em; padding: 1.4em 1em 1em; color: black; font-size: 1em; border: 1px solid #c0c8d1; background-color: #efefef; border-radius: 0.3em">
+                        请输入文字
+                      </section>
+                      </section>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+          
+          <div class="row">
+          <div class="span5">
+            <h4 class="text-info">
+                样式八
+            </h4>
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a href="#Paragraph_Style8_1" data-toggle="tab" style="background:#33b5e5;color:#ffffff;">
+                        &nbsp;蓝&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_2" data-toggle="tab" style="background:#5fb874;color:#ffffff;">
+                        &nbsp;绿&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_3" data-toggle="tab" style="background:#ff8833;color:#ffffff;">
+                        &nbsp;橙&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_4" data-toggle="tab" style="background:#ea4c89;color:#ffffff;">
+                        &nbsp;粉&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_5" data-toggle="tab" style="background:#ff3e43;color:#ffffff;">
+                        &nbsp;红&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_6" data-toggle="tab" style="background:#000000;color:#ffffff;">
+                        &nbsp;黑&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_7" data-toggle="tab" style="background:#95a5a6;color:#ffffff;">
+                        &nbsp;灰&nbsp;
+                    </a>
+                </li>
+                <li>
+                    <a href="#Paragraph_Style8_8" data-toggle="tab" style="background:#fafaef;color:#333333;">
+                        &nbsp;Normal&nbsp;
+                    </a>
+                </li>
+                
+            </ul>
+          </div>
+          <div class="span4">
+            <div class="bs-docs-example">
+                <br>
+                <div class="tab-content">
+                  <div class="tab-pane active " id="Paragraph_Style8_1">               
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #33b5e5;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_2">
+                       <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #5fb874;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_3">
+                       <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #ff8833;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_4">
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #ea4c89;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_5">
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #ff3e43;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_6">
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #000000;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_7">
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #95a5a6;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#fdfdfd; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    <div class="tab-pane" id="Paragraph_Style8_8">
+                      <section style="margin: 0.8em 1em; padding: 1em;border: 1px solid #c0c8d1; border-radius: 0.3em;box-shadow: #aaa 0 0 0.6em;background-color: #fafaef;">
+                      <pre style="display: block; padding: 0px; margin: 0px; border: none; color:#333333; font-size: 1em; line-height: 1.4em; word-break: break-all; word-wrap: break-word; font-family: inherit; font-style: normal; background: none;" >请输入文字<br>请输入文字</pre>
+                      </section>
+                    </div>
+                    
+                </div>
+                <br>
+            </div>
+          </div></div>
+
+          
+
+          
+          
+
 
 
           
 
-          <p class="lead" style="padding-top:20px;">更多样式添加中……</p>
+          
 
         </section>
 
@@ -711,7 +1632,7 @@
           <div class="page-header">
             <h1>5. 其他</h1>
           </div>
-
+          <p class="lead" style="padding-top:20px;">更多样式添加中……</p>
         
         </section>
 
@@ -726,7 +1647,7 @@
             <h1>6. 反馈&讨论</h1>
           </div>
 
-          <blockquote>说明：维护作者不是前端工程师，只是一枚交互射鸡师，很多前端知识都是临时Google的，如果你有更好的修改建议或者想法，请一定一定联系我，让我们一起把这个页面维护好，以便帮助更多不会代码的小伙伴更加方便的编辑排版微信文章。谢谢你的支持！
+          <blockquote>说明：本人不是专业做前端开发的，如果你有前端技术或者更好的修改建议和想法，请一定一定联系我，让我们一起把这个页面维护好，以便帮助更多不会代码的小伙伴更加方便的编辑排版微信文章。谢谢你的支持！
         <br><br>页面最底部是我的联系方式 ^_^
         </blockquote>
 
@@ -800,7 +1721,7 @@ var duoshuoQuery = {short_name:"weixinpaiban"};
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>本页面基于Bootstrap于2014-07-27创建，由 zifeixu85 维护</p>
+        <p>本页面基于Bootstrap，于2014-07-27创建</p>
         <ul class="footer-links">
           <li><a href="http://weibo.com/zifeixu">微博</a></li>
           <li class="muted">&middot;</li>

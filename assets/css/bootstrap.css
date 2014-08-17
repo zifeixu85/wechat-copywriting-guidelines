@@ -4035,8 +4035,9 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
-  width:60%;
-  float:right;
+  width:100%;
+  float:left;
+  margin-top: 20px;
 }
 
 .nav-tabs:before,
@@ -4055,7 +4056,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav-tabs > li,
 .nav-pills > li {
-  float: right;
+  float: left;
 }
 
 .nav-tabs > li > a,
@@ -6175,3 +6176,12 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+
+
+
+
+.wechattem {
+
+}
+
